@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+
+
 func main() {
 	// Main Types
 	// string
@@ -13,9 +15,14 @@ func main() {
 	// complex64 complex128
 
 	// Using var
-	var name = "Brad"
+	//var name = "Brad"
+	name := "Brad"
 	var age int32 = 37
+	const isCool = true
+	size := 1.3
+	//email := "joe@gmail.com"
+	name, email := "Brad", "brad@gmail.com"
 
-	fmt.Println(name, age)
-	fmt.Printf("%T\n%T\n", name, age)
+	fmt.Println(name, age, isCool, email)
+	fmt.Printf("%T\n%T\n%T\n", name, age, size)
 }
