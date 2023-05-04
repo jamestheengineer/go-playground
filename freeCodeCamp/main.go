@@ -1,15 +1,12 @@
 package main
 
-import (
-	"fmt"
-	"strconv"
-)
+import "fmt"
 
 func main() {
-	var i int = 42
-	fmt.Printf("%v, %T\n", i, i)
-	
-	var j string
-	j = strconv.Itoa(i)
-	fmt.Printf("%v, %T\n", j, j)
+	var n bool = true
+	fmt.Printf("%v, %T\n", n, n)
+
+	m := 2 == 1
+	fmt.Printf("%v, %T\n", m, n)
+
 }
