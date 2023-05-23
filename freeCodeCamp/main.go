@@ -20,4 +20,8 @@ func main() {
 	fmt.Println(a / b)
 	fmt.Println(a % b)
 
+	var c int = 10
+	var d int8 = 3
+	fmt.Println(c + int(d))
+
 }
