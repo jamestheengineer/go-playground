@@ -13,4 +13,9 @@ func main() {
 	c := 8
 	fmt.Println( c << 3) // 2^3 * 2^3
 	fmt.Println(c >> 3) // 2^3 / 2^3 = 2^0
+
+	n := 3.14
+	n = 13.7e72
+	n = 2.1E14
+	fmt.Printf("%v, %T\n", n, n)
 }
