@@ -10,5 +10,7 @@ func main() {
 	fmt.Println(d - e)
 	fmt.Println(d * e)
 	fmt.Println(d / e)
+	fmt.Println(real(e))
+	fmt.Println(imag(e))
 	
 }
